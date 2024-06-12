@@ -17,6 +17,6 @@ with open(atp_tennis, newline='') as csvfile:
         message = ', '.join(f"{header}: {value}" for header, value in zip(headers, row))
         channel.basic_publish(exchange="", routing_key="atp_tennis", body=message)
         print(f" [x] Sent '{message}'")
-        time.sleep(3)
+        time.sleep(1)
 
 connection.close()
