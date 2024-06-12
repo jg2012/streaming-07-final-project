@@ -12,4 +12,4 @@ The project demonstartes the use of streaming data from a CSV file using produce
 - If the player is not in the Winner oclumn an alert will be sent that the player has lost the match.  The match details will be sent. 
 
 ## Demo of the Project 
-![atp_tennis_stats](atp_tennis_stats..png)
+![atp_tennis_stats](atp_tennis_stats.png)
